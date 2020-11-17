@@ -10,7 +10,7 @@ source:
   sha256: d8cb0a9997152c7136a8647a763ed17ae900ba01f7d1a16525fb72e5a1c6f514
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("aws-c-io", max_pin="x.x.x") }}
 
@@ -26,9 +26,11 @@ requirements:
 test:
   commands:
     - test -f $PREFIX/lib/libaws-c-io${SHLIB_EXT}  # [unix]
+    - test -f $PREFIX/lib/libaws-c-io.a  # [unix]
     - test -f $PREFIX/include/aws/io/io.h  # [unix]
     - if not exist %LIBRARY_INC%\\aws\\io\\io.h exit 1          # [win]
     - if not exist %PREFIX%\\Library\\bin\\aws-c-io.dll exit 1  # [win]
+    - if not exist %PREFIX%\\Library\\lib\\aws-c-io.lib exit 1  # [win]
 
 about:
   home: https://github.com/awslabs/aws-c-io
@@ -40,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - xhochy
+    - davidbrochart
