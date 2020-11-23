@@ -21,6 +21,7 @@ requirements:
     - ninja
   host:
     - aws-c-common
+    - aws-c-cal
     - s2n  # [linux]
 
 test:
