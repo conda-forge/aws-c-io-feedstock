@@ -16,7 +16,8 @@ build:
 
 requirements:
   build:
-    - cmake
+    # https://gitlab.kitware.com/cmake/cmake/-/issues/21529
+    - cmake !=3.19,!=3.19.1
     - {{ compiler('c') }}
     - ninja
   host:
