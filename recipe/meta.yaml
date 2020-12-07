@@ -16,7 +16,7 @@ build:
 
 requirements:
   build:
-    - cmake
+    - cmake !=3.19.0,!=3.19.1
     - {{ compiler('c') }}
     - ninja
   host:
