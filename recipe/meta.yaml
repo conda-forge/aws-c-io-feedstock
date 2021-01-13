@@ -1,5 +1,5 @@
 {% set name = "aws-c-io" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 08e8c0ac22e146061aee8f16da37f9d685b8de93fe3417e55607f88e5352e82a
+  sha256: 7e3c1e08250a97bbe1e82ee18ab7f6cb21939939fe6addb959636b7ef14d5e3a
 
 build:
   number: 0
