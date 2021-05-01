@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: 90bdf102c94e64a6d112614a7197ffbd098357ed41c5a99c9296e5ce2840a014
+  patches:
+    - 0001-Link-to-ncrypt.patch  # [win]
 
 build:
   number: 0
