@@ -1,5 +1,5 @@
 aws_c_common:
-- 0.5.8
+- 0.5.10
 c_compiler:
 - gcc
 c_compiler_version:
