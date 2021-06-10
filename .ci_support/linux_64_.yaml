@@ -13,7 +13,7 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
 s2n:
-- 1.0.9
+- 1.0.10
 target_platform:
 - linux-64
 zip_keys:
