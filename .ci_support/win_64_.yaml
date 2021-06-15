@@ -1,3 +1,5 @@
+aws_c_cal:
+- 0.5.10
 aws_c_common:
 - 0.6.2
 c_compiler:
