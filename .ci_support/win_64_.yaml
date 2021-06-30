@@ -1,7 +1,7 @@
 aws_c_cal:
 - 0.5.11
 aws_c_common:
-- 0.6.4
+- 0.6.5
 c_compiler:
 - vs2017
 channel_sources:
