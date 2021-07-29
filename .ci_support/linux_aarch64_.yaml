@@ -3,7 +3,7 @@ BUILD:
 aws_c_cal:
 - 0.5.11
 aws_c_common:
-- 0.6.8
+- 0.6.7
 c_compiler:
 - gcc
 c_compiler_version:
@@ -19,6 +19,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
 s2n:
-- 1.0.13
+- 1.0.14
 target_platform:
 - linux-aarch64
