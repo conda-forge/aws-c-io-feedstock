@@ -1,7 +1,7 @@
 aws_c_cal:
 - 0.5.12
 aws_c_common:
-- 0.6.9
+- 0.6.11
 c_compiler:
 - gcc
 c_compiler_version:
@@ -9,7 +9,7 @@ c_compiler_version:
 cdt_name:
 - cos7
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 docker_image:
