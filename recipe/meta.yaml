@@ -1,5 +1,5 @@
 {% set name = "aws-c-io" %}
-{% set version = "0.10.9" %}
+{% set version = "0.10.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: c64464152abe8b7e23f10bc026ed54a15eaf0ec0aae625d28e2caf4489090327
+  sha256: 697a9163c605c07908b8781283526e9b807b2cd149b181e9a0c7abbe2be83309
   patches:
     - 0001-Link-to-ncrypt.patch  # [win]
 
 build:
-  number: 3
+  number: 0
   run_exports:
     - {{ pin_subpackage("aws-c-io", max_pin="x.x.x") }}
 
