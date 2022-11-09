@@ -1,12 +1,11 @@
-{% set name = "aws-c-io" %}
 {% set version = "0.13.7" %}
 
 package:
-  name: {{ name|lower }}
+  name: aws-c-io
   version: {{ version }}
 
 source:
-  url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
+  url: https://github.com/awslabs/aws-c-io/archive/v{{ version }}.tar.gz
   sha256: 6252eff93035ffaa942aa3396d70a1ffb50a3b837bd8987da0911fb4d2de29c7
 
 build:
