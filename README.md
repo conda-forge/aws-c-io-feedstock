@@ -1,11 +1,11 @@
-About aws-c-io
-==============
+About aws-c-io-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-c-io-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/awslabs/aws-c-io
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-c-io-feedstock/blob/main/LICENSE.txt)
 
 Summary: This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols.
 
