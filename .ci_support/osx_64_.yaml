@@ -3,11 +3,11 @@ MACOSX_DEPLOYMENT_TARGET:
 aws_c_cal:
 - 0.5.21
 aws_c_common:
-- 0.8.14
+- 0.8.17
 c_compiler:
 - clang
 c_compiler_version:
-- '14'
+- '15'
 channel_sources:
 - conda-forge
 channel_targets:
