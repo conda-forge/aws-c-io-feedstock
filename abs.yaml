@@ -1,0 +1,4 @@
+channels:
+  - https://staging.continuum.io/prefect/fs/aws-c-cal-feedstock/pr1/ea61a89
+  - https://staging.continuum.io/prefect/fs/s2n-feedstock/pr1/ade4da2
+ 
