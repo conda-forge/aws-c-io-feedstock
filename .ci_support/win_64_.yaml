@@ -4,6 +4,8 @@ aws_c_common:
 - 0.9.14
 c_compiler:
 - vs2019
+c_stdlib:
+- vs
 channel_sources:
 - conda-forge
 channel_targets:
