@@ -1,7 +1,7 @@
 aws_c_cal:
 - 0.6.11
 aws_c_common:
-- 0.9.15
+- 0.9.17
 c_compiler:
 - vs2019
 c_stdlib:
