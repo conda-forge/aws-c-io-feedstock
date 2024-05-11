@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 aws_c_cal:
 - 0.6.13
 aws_c_common:
-- 0.9.17
+- 0.9.18
 c_compiler:
 - clang
 c_compiler_version:
