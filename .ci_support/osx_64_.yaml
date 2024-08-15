@@ -5,7 +5,7 @@ MACOSX_SDK_VERSION:
 aws_c_cal:
 - 0.7.3
 aws_c_common:
-- 0.9.26
+- 0.9.27
 c_compiler:
 - clang
 c_compiler_version:
