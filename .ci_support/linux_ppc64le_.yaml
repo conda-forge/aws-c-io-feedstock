@@ -1,7 +1,7 @@
 aws_c_cal:
 - 0.8.0
 aws_c_common:
-- 0.10.0
+- 0.10.3
 c_compiler:
 - gcc
 c_compiler_version:
