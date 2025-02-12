@@ -1,4 +1,4 @@
-{% set version = "0.15.3" %}
+{% set version = "0.15.5" %}
 
 package:
   name: aws-c-io
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/awslabs/aws-c-io/archive/v{{ version }}.tar.gz
-  sha256: d8cb4d7d3ec4fb27cbce158d6823a1f2f5d868e116f1d6703db2ab8159343c3f
+  sha256: 0ebf91f9d0be8b4d342fa13d85be5da97de532ed75955fb518b17c111abec8ab
 
 build:
-  number: 6
+  number: 0
   run_exports:
     - {{ pin_subpackage("aws-c-io", max_pin="x.x.x") }}
 
