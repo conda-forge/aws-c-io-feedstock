@@ -3,7 +3,7 @@ aws_c_cal:
 aws_c_common:
 - 0.12.3
 c_compiler:
-- vs2019
+- vs2022
 c_stdlib:
 - vs
 channel_sources:
