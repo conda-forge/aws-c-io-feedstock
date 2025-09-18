@@ -19,6 +19,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 s2n:
-- 1.5.25
+- 1.5.26
 target_platform:
 - linux-64
