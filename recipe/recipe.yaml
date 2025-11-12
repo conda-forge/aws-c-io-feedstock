@@ -12,7 +12,7 @@ source:
   sha256: cdcb31b694fc28ba96237ee33a742679daf2dcabfd41464f8a68fbd913907085
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -43,6 +43,7 @@ about:
   license_file: LICENSE
   summary: This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols.
   homepage: https://github.com/awslabs/aws-c-io
+  repository: https://github.com/awslabs/aws-c-io
 
 extra:
   recipe-maintainers:
