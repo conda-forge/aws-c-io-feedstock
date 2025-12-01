@@ -1,7 +1,7 @@
 aws_c_cal:
-- 0.9.10
+- 0.9.13
 aws_c_common:
-- 0.12.5
+- 0.12.6
 c_compiler:
 - gcc
 c_compiler_version:
@@ -17,6 +17,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 s2n:
-- 1.6.0
+- 1.6.1
 target_platform:
 - linux-ppc64le
