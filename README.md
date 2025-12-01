@@ -202,6 +202,3 @@ Feedstock Maintainers
 * [@conda-forge/aws-sdk-cpp](https://github.com/orgs/conda-forge/teams/aws-sdk-cpp/)
 * [@xhochy](https://github.com/xhochy/)
 
-
-<!-- dummy commit to enable rerendering -->
-
