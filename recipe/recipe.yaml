@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.23.3"
+  version: "0.24.0"
 
 package:
   name: aws-c-io
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/awslabs/aws-c-io/archive/v${{ version }}.tar.gz
-  sha256: cdcb31b694fc28ba96237ee33a742679daf2dcabfd41464f8a68fbd913907085
+  sha256: dc36644c1e1c10d6d604a9fcf386b42f16e5e85f73ea2b4b684dfde14d522f5a
 
 build:
-  number: 5
+  number: 0
 
 requirements:
   build:
