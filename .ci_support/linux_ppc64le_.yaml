@@ -15,8 +15,8 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 s2n:
-- 1.7.5
+- 1.7.6
 target_platform:
 - linux-ppc64le
