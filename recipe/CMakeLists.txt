@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(aws_io_consumer LANGUAGES C)
+find_package(aws-c-io CONFIG REQUIRED)
+add_executable(aws_io_consumer consumer.c)
+target_link_libraries(aws_io_consumer PRIVATE AWS::aws-c-io)
