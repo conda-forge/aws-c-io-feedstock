@@ -20,6 +20,8 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
     - ninja
+    - if: win
+      then: python
   host:
     - aws-c-common
     - aws-c-cal

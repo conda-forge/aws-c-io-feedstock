@@ -15,7 +15,7 @@ ninja
 if errorlevel 1 exit 1
 
 set "PATH=%CD%;%LIBRARY_BIN%;%PATH%"
-ctest --output-on-failure -C Release
+python "%RECIPE_DIR%\run_windows_tests.py"
 if errorlevel 1 exit 1
 
 ninja install
