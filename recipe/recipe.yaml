@@ -21,7 +21,7 @@ requirements:
     - ${{ stdlib("c") }}
     - ninja
     - if: win
-      then: python
+      then: python 3.14.*
   host:
     - aws-c-common
     - aws-c-cal
