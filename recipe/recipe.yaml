@@ -26,7 +26,7 @@ requirements:
     - if: unix
       then: s2n
   run_exports:
-    - ${{ pin_subpackage("aws-c-io", upper_bound="x.x.x") }}
+    - ${{ pin_subpackage("aws-c-io", upper_bound="x.x") }}
 
 tests:
   - script:
