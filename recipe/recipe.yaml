@@ -12,7 +12,7 @@ source:
   sha256: cc84b1639c64af41ec7ea7397b020483f9bf73e3b07a72b16b4051b421079aa5
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -20,6 +20,8 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
     - ninja
+    - if: win
+      then: python 3.14.*
   host:
     - aws-c-common
     - aws-c-cal
