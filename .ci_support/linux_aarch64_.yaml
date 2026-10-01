@@ -1,7 +1,7 @@
 aws_c_cal:
-- 0.9.15
+- '1.0'
 aws_c_common:
-- 0.14.4
+- '1.0'
 c_compiler:
 - gcc
 c_compiler_version:
@@ -15,7 +15,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma10
+- quay.io/condaforge/linux-anvil-aarch64:alma10
 s2n:
 - 1.7.7
 target_platform:
