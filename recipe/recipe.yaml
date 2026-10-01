@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.27.7"
+  version: "1.0.0"
 
 package:
   name: aws-c-io
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/awslabs/aws-c-io/archive/v${{ version }}.tar.gz
-  sha256: cc84b1639c64af41ec7ea7397b020483f9bf73e3b07a72b16b4051b421079aa5
+  sha256: 5fecb19c2c0a165687cdd94723943a02ab23a0270deade5661fd935a3cd55e78
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
@@ -26,7 +26,7 @@ requirements:
     - if: unix
       then: s2n
   run_exports:
-    - ${{ pin_subpackage("aws-c-io", upper_bound="x.x.x") }}
+    - ${{ pin_subpackage("aws-c-io", upper_bound="x.x") }}
 
 tests:
   - script:
